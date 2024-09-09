@@ -67,3 +67,15 @@ button:nth-child(4n):hover {
 button:nth-child(4n):active {
   background-color: #ba4a00;
 }
+
+button#equal {
+  background-color: #27ae60;
+}
+
+button#equal:hover {
+  background-color: #2ecc71;
+}
+
+button#equal:active {
+  background-color: #1e8449;
+}
