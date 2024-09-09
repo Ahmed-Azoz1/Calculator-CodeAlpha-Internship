@@ -61,3 +61,16 @@ function deleteLast() {
         display.value = expression; // Update display with modified expression
     }
 }
+
+// Function to set the operation and handle chaining operations
+function setOperation(op) {
+    if (currentInput || expression) {
+        // If there's current input or existing expression, add it to the expression
+        if (currentInput) {
+            expression += currentInput + ' ';
+            currentInput = ''; // Reset current input
+        }
+        expression += op + ' '; // Add the new operation to the expression
+        display.value = expression; // Update display with current expression
+    }
+}
