@@ -27,3 +27,19 @@ function clearAll() {
     expression = '';
     display.value = '';
 }
+
+// Function to calculate the result of the expression
+function calculate() {
+    if (expression) {
+        try {
+            // Evaluate the entire expression using eval
+            const result = eval(expression);
+            display.value = result; // Show the result
+            expression = result.toString(); // Store the result as the new expression
+            currentInput = ''; // Reset current input
+        } catch (error) {
+            display.value = 'Error'; // Display error if calculation fails
+            expression = '';
+        }
+    }
+}
