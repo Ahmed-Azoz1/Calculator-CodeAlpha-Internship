@@ -1,3 +1,6 @@
+// =====================================================   TASK 2 CodeAlpha   =====================================================
+
+
 const display = document.getElementById('display');
 let currentInput = ''; // Stores the current input
 let expression = ''; // Stores the entire expression
@@ -74,3 +77,6 @@ function setOperation(op) {
         display.value = expression; // Update display with current expression
     }
 }
+
+
+// =====================================================  END TASK 2 CodeAlpha   =====================================================
