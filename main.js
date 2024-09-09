@@ -43,3 +43,12 @@ function calculate() {
         }
     }
 }
+
+// Function to append value to the current input
+function appendValue(value) {
+    if (value === '=' || value === 'C' || value === '←') return;
+
+    // Append value to expression
+    expression += value;
+    display.value = expression; // Update display with current expression
+}
