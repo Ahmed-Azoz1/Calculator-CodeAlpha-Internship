@@ -20,3 +20,10 @@ document.querySelectorAll('button').forEach(button => {
         }
     });
 });
+
+// Function to clear all inputs and reset state
+function clearAll() {
+    currentInput = '';
+    expression = '';
+    display.value = '';
+}
