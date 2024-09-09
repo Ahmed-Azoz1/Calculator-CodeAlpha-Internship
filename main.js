@@ -52,3 +52,12 @@ function appendValue(value) {
     expression += value;
     display.value = expression; // Update display with current expression
 }
+
+// Function to remove the last character from the input
+function deleteLast() {
+    if (expression) {
+        // Remove last character from expression
+        expression = expression.slice(0, -1);
+        display.value = expression; // Update display with modified expression
+    }
+}
