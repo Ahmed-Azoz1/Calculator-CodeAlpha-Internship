@@ -36,3 +36,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+
+button {
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
