@@ -79,3 +79,15 @@ button#equal:hover {
 button#equal:active {
   background-color: #1e8449;
 }
+
+button#clear {
+  background-color: #e74c3c;
+}
+
+button#clear:hover {
+  background-color: #c0392b;
+}
+
+button#clear:active {
+  background-color: #a93226;
+}
